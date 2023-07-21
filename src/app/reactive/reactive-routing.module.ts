@@ -9,7 +9,7 @@ const routes: Routes = [
     path: '',
     children: [
       { path: 'basic', component: BasicPageComponent },
-      { path: 'dinamic', component: DynamicPageComponent },
+      { path: 'dynamic', component: DynamicPageComponent },
       { path: 'switches', component: SwitchesPageComponent },
       { path: '**', redirectTo: 'basic' },
     ]
